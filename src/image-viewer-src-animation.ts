@@ -14,7 +14,7 @@ export class ImageViewerSrcAnimation {
 
 		const imageTransition = this.imageAnimation
 			.fromTo('scale', lowResImgWidth / highResImgWidth, 1)
-			.duration(5000)
+			.duration(100)
 			.easing('ease-in-out')
 			.play();
 	}
